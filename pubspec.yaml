@@ -1,0 +1,13 @@
+name: dieta_app_flutter
+description: Um aplicativo simples para controle de refeições e calorias.
+version: 1.0.0+1
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.0
+
+flutter:
+  uses-material-design: true
