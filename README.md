@@ -9,20 +9,16 @@ Um aplicativo Flutter simples que permite ao usuário cadastrar refeições, cal
 - Cálculo do total de calorias
 - Armazenamento local dos dados com `shared_preferences`
 
-## Capturas de Tela
-
-(Adicione as capturas aqui)
-
 ## Instalação
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/dieta_app_flutter.git
+git clone https://github.com/MedeirosMatheus/AppDieta.git
 ```
 
 2. Navegue até o diretório do projeto:
 ```bash
-cd dieta_app_flutter
+cd AppDieta
 ```
 
 3. Instale as dependências:
