@@ -42,11 +42,9 @@ class _MyAppState extends State<MyApp> {
   void loadMeals() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     List<String>? saved = prefs.getStringList('meals');
-    if (saved != null) {
-      setState(() {
-        meals = saved.map((e) => Meal.fromJson(json.decode(e))).toList();
-      });
-    }
+    setState(() {
+      meals = saved?.map((e) => Meal.fromJson(json.decode(e))).toList() ?? [];
+    });
   }
 
   void saveMeals() async {
